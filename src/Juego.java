@@ -1,8 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Juego {
 
@@ -28,11 +26,17 @@ public class Juego {
         }
     }
 
+    public static Map<String, Pokemon> pokemonList = new HashMap<>();
+
     public static void main(String[] args) {
         try {
             getPokemons();
         }catch (FileNotFoundException e) {
             e.printStackTrace();
+        }
+
+        for(String[] pokemon : pokemons) {
+            pokemonList.put(pokemon[0], new Pokemon(pokemon));
         }
     }
 }

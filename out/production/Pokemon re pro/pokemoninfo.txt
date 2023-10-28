@@ -1,3 +1,14 @@
 // nombre:tipo:ataque:defensa:hp:mrapidonombre/daño/tipo/energia/segundos:mcargadonombre/daño/tipo/energia
-charmander:fuego
-pikachu:electrico
+// ELECTRICO
+pikachu:electrico:112:96:99:impactrueno/3/electrico/+9/1:voltio cruel/100/electrico/-45
+vortorb:electrico:109:111:106:chispa/6/electrico/+7/1:rayo/90/electrico/-55
+electabuzz:electrico:198:158:140:patada baja/4/lucha/+5/1:puño trueno/55/electrico/-40
+// FUEGO
+magmar:fuego:106:154:140:ascuas/7/fuego/+6/1:lanzallamas/90/fuego/-55
+charmander:fuego:116:93:105:ascuas/7/fuego/+6/1:nitrocarga/65/fuego/-50
+vulpix:fuego:96:109:103:ataque rapido/5/normal/+8/1:meteorobola/55/fuego/-35
+// NORMAL
+rattata:normal:103:70:92:ataque rapido/5/normal/+8/1:excavar/80/tierra/-50
+tauro:normal:198:183:154:placaje/3/normal/+3/0,5:cornada/40/normal/-35
+meowth:normal:92:78:106:arañazo/4/normal/+2/0,5:pulso umbrio/80/siniestro/-50
+// SINIESTRO

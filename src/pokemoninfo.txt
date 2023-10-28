@@ -7,3 +7,11 @@ electabuzz:electrico:198:158:140:patada baja/4/lucha/+5/1:puño trueno/55/electr
 magmar:fuego:106:154:140:ascuas/7/fuego/+6/1:lanzallamas/90/fuego/-55
 charmander:fuego:116:93:105:ascuas/7/fuego/+6/1:nitrocarga/65/fuego/-50
 vulpix:fuego:96:109:103:ataque rapido/5/normal/+8/1:meteorobola/55/fuego/-35
+// NORMAL
+rattata:normal:103:70:92:ataque rapido/5/normal/+8/1:excavar/80/tierra/-50
+tauro:normal:198:183:154:placaje/3/normal/+3/0,5:cornada/40/normal/-35
+meowth:normal:92:78:106:arañazo/4/normal/+2/0,5:pulso umbrio/80/siniestro/-50
+// SINIESTRO
+liepard:siniestro:187:106:109:encanto/15/hada/+6/1,5:pulso umbrio/80/siniestro/-50
+darkrai:siniestro:285:198:147:alarido/5/siniestro/+13/1,5:ondas certeras/150/lucha/-75
+purrloin:siniestro:98:73:107:arañazo/4/normal/+2/0,5:tajo umbrio/50/siniestro/-35
