@@ -19,4 +19,14 @@ public class Pokemon {
         this.mov_rapido = datos[5].split("/");
         this.mov_cargado = datos[6].split("/");
     }
+
+    public int getStat(int id) {
+        return this.stats[id];
+    }
+
+    public String getInfo(String dato) {
+        if (dato == "nombre") return nombre;
+        else if (dato == "tipo") return tipo;
+        else return null;
+    }
 }
